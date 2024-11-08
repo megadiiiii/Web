@@ -5,12 +5,19 @@
 table, th, td {
     border-color: rgb(0, 0, 0);
     border: 1px solid;
-    width: 50%;
     color: rgb(98, 98, 0);
+    border-style:dotted;
+}
+table {
+    width: 60%;
 }
 
 th {
     background-color: aquamarine;
+    text-align: center;
+}
+
+td {
     text-align: center;
 }
 

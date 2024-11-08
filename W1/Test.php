@@ -13,7 +13,7 @@
     <hr>
     <h1>#Thực đơn</h1>
     <hr>
-    <ol type = "B">
+    <ol type = "1">
         <li>Beef Nam Bắc 2013</li>
         <li>Beef Nam Bắc 2018</li>
         <li>Rácpital</li>
@@ -26,6 +26,6 @@
     </ol>
     <hr>
     <p span="Text"><b>Chúc quý khách ngon miệng trên và dưới</b></p>
-    <img src="./ATVNCG.png" alt="Test" width = 720px>
-    <a href="./test figma.html">Test</a>
+    <img src="./ATVNCG.png" alt="Test" width = 720px> <br>
+    <a href="./test figma.html", target = "blank">Test</a>
 </html>

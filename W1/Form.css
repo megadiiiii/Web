@@ -7,11 +7,12 @@ Input {
     width: 200px;
 }
 
-.Label {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.Label, h1 {
     color: rgb(10, 62, 153);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .Button {
     color: azure;
 }
+

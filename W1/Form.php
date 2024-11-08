@@ -17,20 +17,33 @@
             <input type="date" name=txtDate placeholder="Test"><br>
             <label class="Label" for="">Số lượng</label> <br>
             <input type="number" max = 10><br>
-            <button type="submit">Submit</button>
-            <button type="reset">Reset</button>
             <br>
-            <label class="Label" for="">Phép toán</label> <br>
+            <label class="Label" for="">Phép toán</label>
             <input type="checkbox" name="" id="" >Cộng
             <input type="checkbox" name="" id="" >Trừ 
             <input type="checkbox" name="" id="" >Nhân
             <input type="checkbox" name="" id="" >Chia <br>
-
-            <label class="Label" for="">Phép toán</label> <br>
-            <input type="radio" name="" id="" >Cộng
-            <input type="checkbox" name="" id="" >Trừ 
-            <input type="checkbox" name="" id="" >Nhân
-            <input type="checkbox" name="" id="" >Chia
+            
+            <label class="Label" for="">Phép toán</label>
+            <input type="radio" name="math" id="" >Cộng
+            <input type="radio" name="math" id="" >Trừ 
+            <input type="radio" name="math" id="" >Nhân
+            <input type="radio" name="math" id="" >Chia
+            <br>
+            <button type="submit">
+                <img src="./ATVNCG.png" alt="" width = 36px>
+                Submit
+            </button>
+            <button type="reset">Reset</button> <br>
+            <input type="search" name="search" id="">  <br>
+            <h1>Select</h1> <br>
+            <h1>Bảo có ngu không</h1>
+            <select name="" id="">
+                <option value="">Có</option>
+                <option value="">Yes</option>
+                <option value="">Vẫn là có nhưng dài hơn</option>
+                <option value="">Cả 3 đáp án trên</option>
+            </select>
         </form>
     </div>
 

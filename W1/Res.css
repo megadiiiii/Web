@@ -1,0 +1,21 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table, th, td{
+    border-color: black;
+    border: 0.5px solid;
+}
+
+th {
+    text-align: center;
+}
+
+.Input {
+    width: 540px;
+    height: 20px;
+}
+
+.colspan {
+    text-align: center;
+} 

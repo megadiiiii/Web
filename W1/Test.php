@@ -10,11 +10,13 @@
     <div class="title">   
         <p>Welcome to <br><b><i>Spotify</i></b></p>
     </div>
+    <br>
     <hr>
     <h1>#Thực đơn</h1>
     <hr>
     <ol type = "1">
-        <li>Beef Nam Bắc 2013</li>
+        <li id = "1"><a href="#1">Beef Nam Bắc 2013</a></li>
+        
         <li>Beef Nam Bắc 2018</li>
         <li>Rácpital</li>
         <li>24cm.Right</li>

@@ -1,0 +1,17 @@
+*{
+    background-color: rgb(142, 222, 146);
+}
+
+Input {
+    height: 30px;
+    width: 200px;
+}
+
+.Label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(10, 62, 153);
+}
+
+.Button {
+    color: azure;
+}

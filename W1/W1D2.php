@@ -90,5 +90,19 @@
             </tr>
         </table>
     </div>
+
+    <video width = 400 controls>
+        <source src=".W1/#linhtinh.mp4" type="video/mp4">
+    </video>
+
+    <br>
+    <!-- Form -->
+    <form action="action.php">
+        <input type="radio">
+        
+    </form>
+    
+
+
 </body>
 </html>

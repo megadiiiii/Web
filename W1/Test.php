@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 Page not Found</title>
 </head>
-<body>   
-    <p>Welcome to <br><b><i>Spotify</i></b></p>
+<body>
+    <div class="title">   
+        <p>Welcome to <br><b><i>Spotify</i></b></p>
+    </div>
     <hr>
     <h1>#Thực đơn</h1>
     <hr>
-    <ol type = "1">
+    <ol type = "B">
         <li>Beef Nam Bắc 2013</li>
         <li>Beef Nam Bắc 2018</li>
         <li>Rácpital</li>
@@ -23,8 +25,7 @@
         <li>Chìm loi - MCK</li>
     </ol>
     <hr>
-    <p span="Text">Chúc quý khách ngon miệng trên và dưới</p>
+    <p span="Text"><b>Chúc quý khách ngon miệng trên và dưới</b></p>
     <img src="./ATVNCG.png" alt="Test" width = 720px>
-    <link rel="stylesheet" href="facebook.com/megadiiiii">
-</body>
+    <a href="./test figma.html">Test</a>
 </html>

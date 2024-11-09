@@ -16,12 +16,8 @@ table {
 
 td, th {
     border-radius: 4px;
-    background-color: #a6ea7fbe;
+    background-color: #0c8de97a;
     padding: 5px;
-}
-
-th {
-    text-align: center;
 }
 
 .Input {
@@ -46,7 +42,8 @@ th {
 .button{
     color: blue;
     cursor:progress;
-    background-color:rgba(207, 84, 53, 0.723);
+    background-color: #feb50bb8;
+    border-radius: 2px;
 }
 
 .button::hover{

@@ -10,7 +10,7 @@
     <div class="table" align="center">
         <table>
             <tr>
-                <th colspan = "2">Đăng kí du lịch</th>
+                <th class="colspan" colspan = "2">Đăng kí du lịch</th>
             </tr>
 
             <tr>
@@ -74,7 +74,7 @@
 
             <tr>
                 <td class="colspan" colspan = "2">
-                    <button class="button" type="submit">Đồng ý</button>
+                    <button class="button" type="submit"><img src="./ATVNCG.png" alt="" width = 24px> Đồng ý</button>
                 </td>
             </tr>
             <tr>

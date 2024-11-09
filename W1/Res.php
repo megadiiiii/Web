@@ -59,24 +59,26 @@
             <tr>
                 <td>Phương tiện</td>
                 <td>
-                    <input type="radio" name="Vehicle" id="">Máy bay
-                    <input type="radio" name="Vehicle" id="">Xe ô tô
+                    <div class = "radio">
+                        <input type="radio" name="Vehicle" id="">Máy bay
+                        <input type="radio" name="Vehicle" id="">Xe ô tô
+                    </div>
                 </td>
             </tr>
             <tr>
                 <td>Ghi chú</td>
                 <td>
-                    <input class="Input" type="textarea" name="" id="" cols = "2">
+                    <textarea class="Text" name="" id="" rows = "2"></textarea>
                 </td>
             </tr>
 
             <tr>
-                <td colspan = "2">
-                    <button type="submit">Đồng ý</button>
+                <td class="colspan" colspan = "2">
+                    <button class="button" type="submit">Đồng ý</button>
                 </td>
             </tr>
             <tr>
-                <td colspan = "2" span="Data">Bạn đã đăng kí thành công !!!</td>
+                <td class="colspan" colspan = "2">Bạn đã đăng kí thành công !!!</td>
             </tr>
         </table>
     </div>

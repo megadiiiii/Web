@@ -1,10 +1,23 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: progress;
 }
 
 table, th, td{
     border-color: black;
     border: 0.5px solid;
+    padding: 3px;
+    margin: 200px;
+}
+
+table {
+    border-radius: 7px;
+}
+
+td, th {
+    border-radius: 4px;
+    background-color: #a6ea7fbe;
+    padding: 5px;
 }
 
 th {
@@ -14,8 +27,29 @@ th {
 .Input {
     width: 540px;
     height: 20px;
+    align-self: center;
+}
+
+.Text {
+    width: 540px;
+    height: 40px;
 }
 
 .colspan {
     text-align: center;
 } 
+
+.radio {
+    text-align: center;
+}
+
+.button{
+    color: blue;
+    cursor:progress;
+    background-color:rgba(207, 84, 53, 0.723);
+}
+
+.button::hover{
+    color: rgb(151, 170, 102);
+    background-color:rgba(53, 207, 145, 0.723);
+}

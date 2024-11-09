@@ -78,7 +78,6 @@
             <tr>
                 <td colspan = "2" span="Data">Bạn đã đăng kí thành công !!!</td>
             </tr>
-
         </table>
     </div>
 </body>

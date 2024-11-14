@@ -67,6 +67,7 @@
             </tr>
             <tr>
                 <td class="colspan" colspan = "2"> <b>Số lượng đoàn khách</b> <br>
+
                     <input class = "Num_Input" type="number" name="" id="" min = "0"> Người lớn
                     <input class = "Num_Input" type="number" name="" id="" min = "0"> Trẻ em
                 </td>

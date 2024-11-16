@@ -57,7 +57,7 @@ nav {
     list-style: none;
     text-decoration: none;
     width: 200px;
-    }
+}
 
 .main>li>ul.sub>li {
     text-decoration: none;
@@ -69,12 +69,14 @@ nav {
 
 .main>li:hover>ul.sub>li {
     display: block;
+    font-weight: 100;
 }
 
 .main>li>ul.sub>li:hover {
     display: block;
     background: #fc3b00a0;
     color: #7db4fb;
+    font-weight: 700;
 }
 
 .main>li>ul.sub>li:last-child {
@@ -98,8 +100,8 @@ a {
     -ms-flex: 1;
 }
 .content{
-    flex: 2;
-    -ms-flex: 2;
+    flex: 3;
+    -ms-flex: 3;
 }
 
 .right_nav{

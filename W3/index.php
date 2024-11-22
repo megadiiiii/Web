@@ -72,10 +72,10 @@
                     <tr>
                         <td class="col1">Phép toán</td>
                         <td class="col2">
-                            <input class="math" type="radio" name="math" id="Cong" onclick="Result()">Cộng
-                            <input class="math" type="radio" name="math" id="Tru" onclick="Result()">Trừ
-                            <input class="math" type="radio" name="math" id="Nhan" onclick="Result()">Nhân
-                            <input class="math" type="radio" name="math" id="Chia" onclick="Result()">Chia
+                            <input class="math" type="radio" name="math" id="Cong" onclick="Result()">+
+                            <input class="math" type="radio" name="math" id="Tru" onclick="Result()">-
+                            <input class="math" type="radio" name="math" id="Nhan" onclick="Result()">*
+                            <input class="math" type="radio" name="math" id="Chia" onclick="Result()">/
                         </td>
                     </tr>
                     <tr>

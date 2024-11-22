@@ -60,28 +60,28 @@
                     <tr>
                         <td class="col1">Nhập số thứ nhất</td>
                         <td class="col2">
-                            <input class"in_num" type="number">
+                            <input id="num1" type="number">
                         </td>
                     </tr>
                     <tr>
                         <td class="col1">Nhập số thứ hai</td>
                         <td class="col2">
-                            <input class"in_num" type="number">
+                            <input id="num2" type="number">
                         </td>
                     </tr>
                     <tr>
                         <td class="col1">Phép toán</td>
                         <td class="col2">
-                            <input class="math" type="radio" name="math" id="">Cộng
-                            <input class="math" type="radio" name="math" id="">Trừ
-                            <input class="math" type="radio" name="math" id="">Nhân
-                            <input class="math" type="radio" name="math" id="">Chia
+                            <input class="math" type="radio" name="math" id="Cong" onclick="Result()">Cộng
+                            <input class="math" type="radio" name="math" id="Tru" onclick="Result()">Trừ
+                            <input class="math" type="radio" name="math" id="Nhan" onclick="Result()">Nhân
+                            <input class="math" type="radio" name="math" id="Chia" onclick="Result()">Chia
                         </td>
                     </tr>
                     <tr>
                         <td class="col1">Kết quả</td>
                         <td class="col2">
-                            <label id="result" for=""></label>
+                            <label id="kq" for=""></label>
                         </td>
                     </tr>
                 </table>

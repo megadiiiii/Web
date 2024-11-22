@@ -53,7 +53,13 @@
     </div>
 
     <div class="body">
-        <div class="left_nav"></div>
+        <div class="left_nav">
+            <ul>
+                <li><a href="">Vãi l</a></li>
+                <li><a href="">Vãi l</a></li>
+                <li><a href="">Vãi l</a></li>
+            </ul>
+        </div>
         <div class="content">
             <div class="input">
                 <table>

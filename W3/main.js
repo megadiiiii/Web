@@ -12,4 +12,8 @@ function Result() {
         result = a / b
     }
     document.getElementById('kq').innerHTML = result;
+
+    alert("Bảo Ngu")
+    alert(result);
+    alert("Bảo Ngu thật")
 }

@@ -11,7 +11,7 @@
         <div class="header">
             <nav class="container">
                 <a class="logo" href="">
-                    <img src="../logo.png" alt="Trang chủ" width="150px">
+                    <img src="../W3/logo.png" alt="Trang chủ" width="150px">
                 </a>
                 <ul class="main">
                     <li><a href="">
@@ -54,12 +54,7 @@
 
     <div class="body">
         <div class="left_nav">
-            <ul>
-                <li><a href="">Vãi l</a></li>
-                <li><a href="">Vãi l</a></li>
-                <li><a href="">Vãi l</a></li>
-                <li><a href="">Vãi l</a></li>
-            </ul>
+            <ul></ul>
         </div>
         <div class="content">
             <div class="input">

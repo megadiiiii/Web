@@ -66,5 +66,6 @@
         <div class="right_nav">
             
         </div>
+        <script src="Lab_menu.js"></script>
 </body>
 </html>

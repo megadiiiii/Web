@@ -51,7 +51,7 @@ nav {
 }
 
 .main>li>ul.sub {
-    position: fixed ;
+    position: fixed;
     background-color: #131921e9;
     padding: 0;
     list-style: none;

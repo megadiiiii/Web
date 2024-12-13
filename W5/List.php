@@ -16,7 +16,7 @@ $data = mysqli_query($con, $sql);
 </head>
 
 <body>
-    <table class="table table-striped table-light">
+    <table class="table table-striped table-light" style="width:100%; padding:100px 350px">
         <thead>
             <tr>
                 <th class="test">STT</th>

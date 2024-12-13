@@ -12,13 +12,13 @@
         if(mysqli_num_rows($data)>0) {
             echo "<script>alert('Trùng mã sách')</script>";
         } else {            
-            //Create command to add data into table
-            $sql = "INSERT INTO `test`(`Ten`, `ID`, `Nam`, `NXB`) VALUES ('$Ten','$ID','$Nam','$NXB')";
-            //SQL Excute 
-            $data = mysqli_query($con, $sql);
-            if($data) {
-                echo "<script>alert('Thêm thông tin thành công')</script>";
-            } else echo "<script>alert('Thêm thông tin thất bại')</script>";
+        //Create command to add data into table
+        $sql = "INSERT INTO `test`(`Ten`, `ID`, `Nam`, `NXB`) VALUES ('$Ten','$ID','$Nam','$NXB')";
+        //SQL Excute 
+        $data = mysqli_query($con, $sql);
+        if($data) {
+            echo "<script>alert('Thêm thông tin thành công')</script>";
+        } else echo "<script>alert('Thêm thông tin thất bại')</script>";
         }
     }
 ?>

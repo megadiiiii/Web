@@ -58,7 +58,7 @@ mysqli_close($con);
     <body>
     <div class="container">
             <form method="post" action="">
-            <div class="form-inline" style="width:100%; padding:100px 500px">
+            <div class="form-inline" style="width:100%; padding:100px 350px">
                 <label for="tenloai">MSV:</label>
                 <input type="text" name="txtStudent_ID" class="form-control" value="<?php echo $student_ID; ?>" require>
                 <label for="student_FName">Họ và tên</label>
@@ -93,9 +93,9 @@ mysqli_close($con);
                 <label for="address">Địa chỉ:</label>
                 <input type="text" name="txtAddress"class="form-control" <?php echo $address; ?>" require>
                 <br>
-                &nbsp;&nbsp;&emsp;&emsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <button type="submit" class="btn btn-primary" name="btnSave">Cập nhật</button>
-                &nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <button type="submit" class="btn btn-primary" name="btnBack">Quay lại</button>
             </div>
     </body>

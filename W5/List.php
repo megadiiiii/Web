@@ -27,31 +27,28 @@ $data = mysqli_query($con, $sql);
                 <th>Chức năng</th>
             </tr>
         </thead>
-            <tbody>
-                <?php
-                if (isset($data) && mysqli_fetch_row($data) > 0) {
-                    $i = 1;
-                    while ($row = mysqli_fetch_array($data)) {
-                        ?>
-                        <tr>
-                            <td><?php echo $i++ ?></td>
-                            <td><?php echo $row['Ten'] ?></td>
-                            <td><?php echo $row['ID'] ?></td>
-                            <td><?php echo $row['Nam'] ?></td>
-                            <td><?php echo $row['NXB'] ?></td>
-                            <td colspan="2">
-                                <a href="Edit.php?ID=<?php echo $row['ID'] ?>">Sửa</a>
-                                <a href="Delete.php?ID=<?php echo $row['ID'] ?>">Xoá</a>
-                            </td>
-                        </tr>
-                        <?php
+        <tbody>
+            <?php
+            if (isset($data) && mysqli_fetch_row($data) > 0) {
+                $i = 1;
+                while ($row = mysqli_fetch_array($data)) {
+            ?>
+                <tr>
+                        <td><?php echo $i++ ?></td>
+                        <td><?php echo $row['Ten'] ?></td>
+                        <td><?php echo $row['ID'] ?></td>
+                        <td><?php echo $row['Nam'] ?></td>
+                        <td><?php echo $row['NXB'] ?></td>
+                        <td colspan="2">
+                            <a href="Edit.php?ID=<?php echo $row['ID'] ?>">Sửa</a>
+                            <a href="Delete.php?ID=<?php echo $row['ID'] ?>">Xoá</a>
+                        </td>
+                </tr>
+            <?php
                     }
                 }
-                ?>
-
-                
-            </tbody>
-        </th>
+            ?>    
+        </tbody>
     </table>
 </body>
 

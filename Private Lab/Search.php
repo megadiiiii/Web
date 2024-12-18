@@ -17,12 +17,14 @@ if(isset($_POST["btnSearch"])){
     $student_ID = $_POST["txtStudent_ID"];
     $student_FName = $_POST['txtStudent_FName'];
     $sex = $_POST['ddlSex'];
-    $class_ID = $_POST['ddlClass_ID'];   }
+    $class_ID = $_POST['ddlClass_ID'];   
+}
     $sql1 = "SELECT student.*,class_name FROM student,class WHERE student.class_ID=class.class_ID and student_ID like '%$student_ID%' 
            and student_FName like '%$student_FName%' and sex like '%$sex%' and student.class_ID like '%$class_ID%'"; 
     $data = mysqli_query($con,$sql1);
 
-if(isset($_POST["btnThemmoi"])){header("location:./Add_Student.php");
+if(isset($_POST["btnAdd"])){
+    header("location:./Add.php");
 }
 mysqli_close($con);
 ?>
@@ -66,7 +68,7 @@ mysqli_close($con);
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <button type="submit" class="btn btn-primary" name="btnSearch">Tìm kiếm</button>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button type="submit" class="btn btn-primary" name="btnThemmoi">Thêm mới</button>
+                <button type="submit" class="btn btn-primary" name="btnAdd">Thêm mới</button>
             </div>
        
         </form>
@@ -83,7 +85,7 @@ mysqli_close($con);
                     <th>Điện thoại</th>
                     <th>Email</th>
                     <th>Địa chỉ</th>
-                    <th></th>
+                    <th>Chức năng</th>
                 </tr>
             </thead>
             <tbody>
@@ -107,12 +109,12 @@ mysqli_close($con);
                         <a href="Delete.php?student_ID=<?php echo $row['student_ID']; ?>" onclick="return confirm('Bạn có chắc chắn muốn xóa sinh viên này?')">Xóa</a>
                     </td>
                 </tr>
-                <?php
+            <?php
                     }
                 } else {
                     echo "<tr><td colspan='10'>Không tìm thấy dữ liệu</td></tr>";
                 }
-                ?>
+            ?>
             </tbody>
         </table>
     </div>

@@ -73,17 +73,17 @@ mysqli_close($con);
                 <label for="class_ID">Lớp:</label>
                 <select name="ddlClass_ID" class="form-control">
                     <option value="">---Chọn lớp học---</option>
-                 <?php 
+                <?php 
                     if(isset($class)&&mysqli_num_rows($class)>0){
                         while($row=mysqli_fetch_assoc($class)){
-                 ?>
+                ?>
                             <option value="<?php echo $row['class_ID'] ?>" <?php if($class_ID==$row['class_ID']) echo 'selected' ?>>
                                 <?php echo $row['class_name'] ?>
                             </option>
-                 <?php
+                <?php
                         }
                     }
-                 ?>   
+                ?>   
                 </select>
 
                 <label for="phone">SĐT:</label>

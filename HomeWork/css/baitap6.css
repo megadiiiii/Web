@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --background: #ffcc02;
+}
+.yellow1 {
+  background: var(--background);
+}
+.yellow2 {
+  background: var(--background);
+}
+table {
+  padding: 30px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.calculator {
+  background-color: #cccccc;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.ketqua {
+  width: 99%;
+  height: 99%;
+  object-fit: cover;
+  border: none;
+  margin-left: -1px;
+}
+tr {
+  text-align: center;
+}
+button {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

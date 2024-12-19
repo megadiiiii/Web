@@ -84,7 +84,8 @@
                         <td><?php echo $row['hoten'] ?></td>
                         <td><?php echo $row['diem'] ?></td>
                         <td>
-                            <a class="link-offset-2 link-underline link-underline-opacity-0" href="Delete.php?masv=<?php echo $row['masv']; ?>" onclick="return confirm('Bạn có chắc chắn muốn xóa sinh viên này?')">Xóa</a>
+                            <a class="btn btn-primary" href="Edit.php?masv=<?php echo $row['masv']; ?>">Cập nhật</a> &nbsp; &nbsp;
+                            <a class="btn btn-primary" href="Delete.php?masv=<?php echo $row['masv']; ?>" onclick="return confirm('Bạn có chắc chắn muốn xóa sinh viên này?')">Xóa</a>
                         </td>
                 </tr>
             <?php

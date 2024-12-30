@@ -1,3 +1,3 @@
 <?php 
-    $con = mysqli_connect(hostname: 'localhost',username: 'root', password: '', database: 'test');
+    $con = mysqli_connect('localhost', 'root', '', 'test');
 ?>

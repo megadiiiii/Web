@@ -17,7 +17,7 @@
             //SQL Excute 
             $data = mysqli_query($con, $sql);
             if($data) {
-                header("location:List.php")
+                header("location:List.php");
             } else echo "<script>alert('Sửa thông tin thất bại')</script>";
         }
     }

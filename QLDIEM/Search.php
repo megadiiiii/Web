@@ -57,7 +57,7 @@
         </form>
         
         <h3 style="text-align: center;">DANH SÁCH</h3>
-        <table class="table table-bordered table-hover table-striped table-primary" border="1" style="width:100%">
+        <table class="table table-bordered table-hover table-striped" border="1" style="width:100%">
             <thead>
                 <tr>
                     <th>STT</th>

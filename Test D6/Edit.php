@@ -73,6 +73,7 @@
                 <button type="submit" class="btn btn-primary" name="btnEdit">Cập nhật</button>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <button type="submit" class="btn btn-primary" name="btnBack">Quay lại</button>
+                
             </div>
         </form>
     </div>
